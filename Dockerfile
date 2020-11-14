@@ -1,4 +1,4 @@
-FROM ubuntu:20.4
+FROM ubuntu:20.04
 
 VOLUME /var/mail /config /output
 
