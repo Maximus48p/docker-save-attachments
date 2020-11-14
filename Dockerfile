@@ -1,6 +1,4 @@
-FROM ubuntu:latest
-
-MAINTAINER Jens Willemsens
+FROM ubuntu:20.4
 
 VOLUME /var/mail /config /output
 
