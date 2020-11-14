@@ -1,7 +1,8 @@
-docker-save-attachments
+IMAP Save Attachments
 =======================
 
-![Docker Pulls](https://img.shields.io/docker/pulls/jenswbe/imap-save-attachments)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-repo-brightgreen?logo=github)](https://github.com/JenswBE/docker-save-attachments)
+[![DockerHub Repo](https://img.shields.io/badge/DockerHub-repo-blue?logo=docker)](https://hub.docker.com/r/jenswbe/imap-save-attachments)
 
 This utility fetches emails regularly from an IMAP/POP3 account and saves the attachments to an output location, which can be a network file share.
 
