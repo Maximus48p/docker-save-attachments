@@ -36,7 +36,7 @@ do
 	mkdir -p $DESTINATION/$MSGDATE/$MSGTIME
 	rm $MAILDIR/extracted/$i/$i
     find $MAILDIR/extracted/$i/ -type f \
-	  -execdir cp -v --no-preserve=mode,ownership "{}" "$DESTINATION/$MSGDATE/$MSGTIME/{}" \; \
+	  -execdir cp -v --no-preserve=mode,ownership "{}" "$DESTINATION/" \; \
 	  -exec rm "{}" \;
 
 	if [[ $DEBUG -eq 0 ]]; then
