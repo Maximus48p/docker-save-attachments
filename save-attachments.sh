@@ -44,6 +44,12 @@ do
 	fi
 done
 
+# extra
+# move al matching files to a specific folder (to remove subdirectories)
+# create a shared docker volume /download
+echo "[$(date '+%T')] move downloaded files from subfolders to output root folder, if any..."
+find /download -type f \( -iname "*.epub" -o -iname "*.pdf" \) -exec mv {} /output/ \;
+
 shopt -u nullglob
 
 echo "[$(date '+%T')] Done!"
